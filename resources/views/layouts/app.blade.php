@@ -26,6 +26,8 @@
         {{-- Canonical --}}
         <link rel="canonical" href="@yield('canonical', url()->current())">
 
+        <link rel="icon" type="image/x-icon" href="{{ asset("assets/hammer.png") }}">
+
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
         @livewireStyles
